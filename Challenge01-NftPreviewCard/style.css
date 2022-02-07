@@ -1,0 +1,132 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100&display=swap');
+
+@media (min-width: 500px) {
+    .container {
+      width: 450px;
+      margin: 0 auto 1rem;
+    }
+  }
+  
+:root {
+    /* Primárias */
+    --softblue: hsl(251, 51%, 70%);
+    --cyan: hsl(178, 100%, 50%);
+
+    /* Neutras */
+    --darkblue1: hsl(217, 54%, 11%); /* Main */
+    --darkblue2: hsl(216, 50%, 16%); /* Card */
+    --darkblue3: hsl(215, 32%, 27%); /* Line */
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--darkblue1);
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+main {
+    /**/
+    font-family: 'Outfit', sans-serif;
+    color: white;
+    background-color: var(--darkblue2);
+
+    max-width: 300px;
+    min-width: 250px;
+
+    padding: 15px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.nft-preview img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.nft-preview:hover {
+    cursor: pointer;
+    background-image: u;
+}
+
+#nft-title {
+    font-weight: 600;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+
+.description {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: var(--cyan);
+}
+
+ul {
+    list-style-type: none;
+    columns: 2;
+}
+
+.content ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+.content ul li {
+    display: flex;
+    align-items: center;
+}
+
+.content ul li img {
+    margin-right: 4px;
+}
+hr {
+    color: var(--darkblue3);
+}
+
+.creator {
+    margin: 10px 0;
+    display: flex;
+    justify-content: flex-start;
+
+    color: var(--cyan);
+}
+
+.creator img {
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.creator > p {
+    margin: 6px 0 0 10px;
+}
+
+.creator a {
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    color: hsl(228, 45%, 44%);
+}
+
+footer a:hover {
+    color: var(--softblue);
+    background-color: var(--darkblue2);   
+}
