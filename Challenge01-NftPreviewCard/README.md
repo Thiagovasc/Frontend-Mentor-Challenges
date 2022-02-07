@@ -40,7 +40,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](Challenge01-NftPreviewCard/design/nftpreviewcard-screenshot.png)
+![](design/nftpreviewcard-screenshot.png)
 
 ### Links
 
