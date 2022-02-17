@@ -27,7 +27,6 @@ body {
     padding: 1.25rem;
     background-color: var(--PaleBlue);
 
-
     font-size: 1rem;
     font-family: 'Red Hat Display', sans-serif;
 }
@@ -35,6 +34,7 @@ body {
 main {
     background-color: var(--VeryPaleBlue);
     max-width: 400px; 
+    border-radius: 1rem 1rem 0 0;
 }
 
 main section {
@@ -111,10 +111,19 @@ main button {
     cursor: pointer;
 }
 
+.proceed:hover {
+    background-color: var(--DarkBlue);
+    color: var(--PaleBlue);
+}
+
 .cancel {
     text-decoration: none;
     color: var(--DesaturatedBlue);
     cursor: pointer;
     font-weight: 700;
     margin-bottom: 1.5rem;
+}
+
+.cancel:hover {
+    color: var(--DarkBlue);
 }
