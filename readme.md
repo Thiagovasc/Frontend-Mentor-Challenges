@@ -1,6 +1,11 @@
 # Frontend Mentor - Challenges
 
-![](images/undraw_ideas_flow_re_bmea.svg)
+<img
+  align="right"
+  width="100"
+  height="100"
+  src="images/undraw_ideas_flow_re_bmea.svg"
+>
 
 ## Welcome! 👋
 
