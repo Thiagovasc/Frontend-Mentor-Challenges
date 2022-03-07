@@ -4,7 +4,7 @@
   align="right"
   width="100"
   height="100"
-  src="images/undraw_ideas_flow_re_bmea.svg"
+  src="https://github.com/Thiagovasc/Frontend-Mentor-Challenges/blob/master/images/undraw_ideas_flow_re_bmea.svg"
 >
 
 ## Welcome! 👋
