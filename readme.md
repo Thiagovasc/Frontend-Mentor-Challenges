@@ -17,3 +17,6 @@ Thanks for checking all my frontend challenges
     - Solution URL: [Solution submitted on frontend menthor](https://www.frontendmentor.io/solutions/responsive-landing-page-using-flexbox-oXT-T_NF5)
 
 ![](Challenge02-OrderSumary/design/order_summary_solution_screenshot.png)
+
+- [Third Challenge](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62)
+![](Challenge03-StatsPreview/design/Screenshot-Stats-preview-card-component.png)
