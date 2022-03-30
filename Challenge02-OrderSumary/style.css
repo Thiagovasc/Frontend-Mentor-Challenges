@@ -140,3 +140,19 @@ main button {
 .cancel:hover {
     color: var(--DarkBlue);
 }
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: hsl(244, 38%, 16%);
+    padding: .5rem;
+    color: hsl(277, 64%, 61%);
+}
+
+footer a {
+    text-decoration: none;
+    color: #73ff00b9;
+}
