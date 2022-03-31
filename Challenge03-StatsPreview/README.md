@@ -36,7 +36,7 @@ Users should be able to:
 a
 ### Screenshot
 - Desktop:
-![](Challenge03-StatsPreview/design/Screenshot-Stats-preview-card-component.png)
+![](design/Screenshot-Stats-preview-card-component.png)
 
 - Mobile:
 ![](design/Challenge03-mobile-version.png)
