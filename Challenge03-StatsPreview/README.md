@@ -35,8 +35,10 @@ Users should be able to:
 - View the optimal layout depending on their device's screen size
 a
 ### Screenshot
-
+- Desktop:
 ![](Challenge03-StatsPreview/design/Screenshot-Stats-preview-card-component.png)
+
+- Mobile:
 ![](design/Challenge03-mobile-version.png)
 
 ### Links
