@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" href="assets/style/style.css">
   <title>Frontend Mentor | Interactive rating component</title>
 
 </head>
@@ -20,11 +20,11 @@
       to help us improve our offering!
     </p>
     <ul class="rating-list">
-      <li><button class="rating-bttn" id="1">1</button></li>
-      <li><button class="rating-bttn" id="2">2</button></li>
-      <li><button class="rating-bttn" id="3">3</button></li>
-      <li><button class="rating-bttn" id="4">4</button></li>
-      <li><button class="rating-bttn" id="5">5</button></li>
+      <li><button class="rating-bttn" id="1" onclick="ratingButton(this.id)">1</button></li>
+      <li><button class="rating-bttn" id="2" onclick="ratingButton(this.id)">2</button></li>
+      <li><button class="rating-bttn" id="3" onclick="ratingButton(this.id)">3</button></li>
+      <li><button class="rating-bttn" id="4" onclick="ratingButton(this.id)">4</button></li>
+      <li><button class="rating-bttn" id="5" onclick="ratingButton(this.id)">5</button></li>
     </ul>
     <button class="submit-bttn">SUBMIT</button>
   </div>
@@ -42,7 +42,10 @@
       don’t hesitate to get in touch!
     </p>
   </div>
-
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI" target="_blank">Frontend Mentor</a>. Coded by <a href="https://github.com/Thiagovasc" target="_blank">Thiago Vasconcelos</a>.
+  </footer>
+  <script src="assets/script/script.js"></script>
   <!-- Thank you state end -->
 </body>
 </html>

@@ -41,7 +41,7 @@ body {
     display: flex;
     justify-content: flex-start;
     padding: 10px;
-    background-color: var(--Dark-Blue);
+    background-color: hsla(220, 8%, 79%, 0.137);
     border-radius: 50%;
 }
 
@@ -72,13 +72,14 @@ ul {
     height: 3rem;
     width: 3rem;
     border-radius: 50%;
-    background-color: var(--Light-Grey);
+    background-color: hsla(220, 8%, 79%, 0.137);
+    color: white;
     border: none;
     cursor: pointer;
 }
 
 .rating-bttn:hover {
-    background-color: var(--Orange);
+    background-color: var(--Medium-Grey);
     color: white;
 }
 
@@ -99,4 +100,21 @@ ul {
 
 .active-state {
     display: none;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: var(--Dark-Blue);
+    padding: .5rem;
+    color: var(--Orange);
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--Orange);
+    cursor: pointer;
 }
