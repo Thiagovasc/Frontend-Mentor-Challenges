@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
@@ -19,20 +20,23 @@
       <div class="stats">
         <div>
           <p class="num">10k+</p>
-          <p>Companies</p>
+          <p class="stats-area">Companies</p>
         </div>
         <div>
           <p class="num">314</p>
-          <p>templates</p>
+          <p class="stats-area">templates</p>
         </div>
         <div>
           <p class="num">12m+</p>
-          <p>queries</p>
+          <p class="stats-area">queries</p>
         </div>
       </div>
     </div>
     <div class="card-image">
-      <img src="images/image-header-desktop.jpg" alt="">
+      <picture>
+        <source media="(max-width: 700px)" srcset="images/image-header-mobile.jpg">
+        <img src="images/image-header-desktop.jpg" alt="">
+      </picture>
     </div>
   </div>
   <footer class="attribution">
