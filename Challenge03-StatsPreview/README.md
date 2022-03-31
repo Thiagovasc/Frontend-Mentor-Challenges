@@ -37,6 +37,7 @@ a
 ### Screenshot
 
 ![](Challenge03-StatsPreview/design/Screenshot-Stats-preview-card-component.png)
+![](design/Challenge03-mobile-version.png)
 
 ### Links
 
