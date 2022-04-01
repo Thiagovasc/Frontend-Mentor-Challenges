@@ -1,12 +1,9 @@
 function ratingButton(id){
-    const element = document.getElementById(id)
-    const note = id
-    
+    var element = document.getElementById(id)
+    var spanNote = document.getElementsByClassName("selected-rating")
+
+    var note = id
+    spanNote.innerHTML = id
     element.style.background = "orange"
-    if(element.style.background == "orange") element.style.background = "grey"
-    else element.style.background = "orange"
 
-
-    
-    console.log(id, element.style.background)
 }

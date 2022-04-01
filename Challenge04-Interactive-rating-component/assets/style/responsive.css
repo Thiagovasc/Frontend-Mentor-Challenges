@@ -1,0 +1,17 @@
+@media (max-width: 800px) {
+    .container-support, .card-state-active {
+        max-width: 400px;
+        height: 408px;
+        padding: .8rem;
+        text-align: center;
+    }
+
+    .star-head {
+        margin-top: 1rem;
+    }
+
+    .rating-list {
+        gap: .5rem;
+    }
+    
+}

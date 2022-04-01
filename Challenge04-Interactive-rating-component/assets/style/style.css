@@ -31,7 +31,7 @@ body {
 
 .container-support {
     width: 400px;
-    height: 400px;
+    height: 420px;
     border-radius: 20px;
     padding: 1.5rem;
     background-color: var(--Dark-Blue);
@@ -62,7 +62,7 @@ ul {
     display: flex;
     flex-direction: row;
     gap: 1rem;
-    justify-content: space-between;
+    justify-content: space-evenly;
     list-style: none;
     padding-bottom: 2rem;
 }
@@ -85,7 +85,7 @@ ul {
 
 .submit-bttn {
     width: 100%;
-    padding: .5rem;
+    padding: 1rem .5rem;
     border-radius: 1rem;
     background-color: var(--Orange);
     color: white;
@@ -98,8 +98,40 @@ ul {
     color: var(--Orange);
 }
 
-.active-state {
+.card-state-active {
     display: none;
+    width: 400px;
+    height: 408px;
+    border-radius: 30px;
+    padding: 1.5rem;
+    background-color: var(--Dark-Blue);
+    text-align: center;
+}
+
+.card-state-active img {
+    margin: 1.5rem;
+}
+
+.span-message {
+    display: inline-block;
+    padding: .3rem 1.2rem;
+    border-radius: 2rem;
+    margin-bottom: 2rem;
+    color: var(--Orange);
+    font-size: 19px;
+    text-align: center;
+    background-color: hsla(220, 8%, 79%, 0.137);
+}
+
+.title-card-state {
+    color: white;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.subtitle-card-state {
+    color: var(--Medium-Grey);
+    margin-bottom: 1rem;
 }
 
 footer {

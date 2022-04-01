@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="assets/style/style.css">
+  <link rel="stylesheet" href="assets/style/responsive.css">
   <title>Frontend Mentor | Interactive rating component</title>
 
 </head>
@@ -34,10 +35,11 @@
   <!-- Rating state end -->
 
   <!-- Thank you state start -->
-  <div class="active-state">
-    <h2>You selected <span class="selected-rating"></span> out of 5</h>
-    <h2>Thank you!</h2>
-    <p>
+  <div class="card-state-active">
+    <img src="images/illustration-thank-you.svg" alt="">
+    <h1 class="span-message">You selected <span class="selected-rating">3</span> out of 5</h1>
+    <h1 class="title-card-state">Thank you!</h2>
+    <p class="subtitle-card-state">
       We appreciate you taking the time to give a rating. If you ever need more support,
       don’t hesitate to get in touch!
     </p>
