@@ -40,7 +40,7 @@ body {
 .star-head {
     display: flex;
     justify-content: flex-start;
-    padding: 10px;
+    padding: 15px;
     background-color: hsla(220, 8%, 79%, 0.137);
     border-radius: 50%;
 }
