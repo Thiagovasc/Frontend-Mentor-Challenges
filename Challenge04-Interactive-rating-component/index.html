@@ -21,13 +21,13 @@
       to help us improve our offering!
     </p>
     <ul class="rating-list">
-      <li><button class="rating-bttn" id="1" onclick="ratingButton(this.id)">1</button></li>
-      <li><button class="rating-bttn" id="2" onclick="ratingButton(this.id)">2</button></li>
-      <li><button class="rating-bttn" id="3" onclick="ratingButton(this.id)">3</button></li>
-      <li><button class="rating-bttn" id="4" onclick="ratingButton(this.id)">4</button></li>
-      <li><button class="rating-bttn" id="5" onclick="ratingButton(this.id)">5</button></li>
+      <li><button class="rating-bttn" id="1" onclick="ratingButton(0)">1</button></li>
+      <li><button class="rating-bttn" id="2" onclick="ratingButton(1)">2</button></li>
+      <li><button class="rating-bttn" id="3" onclick="ratingButton(2)">3</button></li>
+      <li><button class="rating-bttn" id="4" onclick="ratingButton(3)">4</button></li>
+      <li><button class="rating-bttn" id="5" onclick="ratingButton(4)">5</button></li>
     </ul>
-    <button class="submit-bttn">SUBMIT</button>
+    <button class="submit-bttn" onclick="submitButton()">SUBMIT</button>
   </div>
   
 
@@ -37,7 +37,7 @@
   <!-- Thank you state start -->
   <div class="card-state-active">
     <img src="images/illustration-thank-you.svg" alt="">
-    <h1 class="span-message">You selected <span class="selected-rating">3</span> out of 5</h1>
+    <h1 class="span-message">You selected <span class="selected-rating"></span> out of 5</h1>
     <h1 class="title-card-state">Thank you!</h2>
     <p class="subtitle-card-state">
       We appreciate you taking the time to give a rating. If you ever need more support,
